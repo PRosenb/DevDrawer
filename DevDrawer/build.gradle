@@ -11,8 +11,8 @@ android {
         applicationId "com.owentech.DevDrawer"
         minSdkVersion 14
         targetSdkVersion 26
-        versionCode 16
-        versionName "1.6.1"
+        versionCode 17
+        versionName "2.0.0"
     }
 }
 
