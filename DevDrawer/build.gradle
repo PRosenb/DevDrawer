@@ -8,10 +8,10 @@ android {
     buildToolsVersion "26.0.2"
 
     defaultConfig {
-        applicationId "com.owentech.DevDrawer"
+        applicationId "ch.pete.DevDrawer"
         minSdkVersion 14
         targetSdkVersion 26
-        versionCode 17
+        versionCode 1
         versionName "2.0.0"
     }
 }
