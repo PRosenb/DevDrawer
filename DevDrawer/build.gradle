@@ -9,8 +9,8 @@ android {
 
     defaultConfig {
         applicationId "com.owentech.DevDrawer"
-        minSdkVersion 7
-        targetSdkVersion 19
+        minSdkVersion 14
+        targetSdkVersion 26
         versionCode 16
         versionName "1.6.1"
     }
