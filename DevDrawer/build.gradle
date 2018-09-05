@@ -14,6 +14,23 @@ android {
         versionCode 1
         versionName "2.0.0"
     }
+
+    signingConfigs {
+        release {
+            storeFile file('../../../key/keystoreDevDrawer')
+            storePassword "q3UsnCr487XjuGqH"
+            keyAlias "app"
+            keyPassword "q3UsnCr487XjuGqH"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
 }
 
 dependencies {
