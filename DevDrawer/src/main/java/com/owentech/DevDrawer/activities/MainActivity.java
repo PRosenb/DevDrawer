@@ -158,11 +158,11 @@ public class MainActivity extends Activity implements TextWatcher {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
-            menu.add(0, Constants.MENU_SHORTCUT, 0, "Create Legacy Shortcut").setShowAsAction(MenuItem.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW);
+//            menu.add(0, Constants.MENU_SHORTCUT, 0, "Create Legacy Shortcut").setShowAsAction(MenuItem.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW);
             menu.add(0, Constants.MENU_SETTINGS, 0, "Settings").setIcon(R.drawable.ic_action_settings_white).setShowAsAction(MenuItem.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW);
             //menu.add(0, Constants.MENU_LOCALE_SWITCHER, 0, "Locale Switcher").setIcon(R.drawable.ic_action_globe).setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
         } else {
-            menu.add(0, Constants.MENU_SHORTCUT, 0, "Create Shortcut");
+//            menu.add(0, Constants.MENU_SHORTCUT, 0, "Create Shortcut");
             menu.add(0, Constants.MENU_SETTINGS, 0, "Settings");
             //menu.add(0, Constants.MENU_LOCALE_SWITCHER, 0, "Locale Switcher");
         }
